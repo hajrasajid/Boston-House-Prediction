@@ -38,5 +38,13 @@ DIS, RAD, LSTAT, MEDV
 Negatively skewed:
 AGE, PTRATIO, B
 
+**Outlier Analysis & Removal**
+Boxplots show significant outliers in features like CRIM, ZN, and LSTAT due to skewed distributions. These outliers were removed using the IQR method by filtering values outside the 1.5×IQR range.After cleaning, the dataset size reduced from (506, 14) to (217, 14), indicating a large number of extreme values were present.
+
+
+
+
+
+
 
 
