@@ -38,9 +38,9 @@ Test RMSE (scaled): 0.666
 
 **Residual Analysis**
 
-✔ Residuals are normally distributed
-✔ Indicates assumptions of Linear Regression are satisfied
-✔ No major bias in predictions
+Residuals are normally distributed.
+Indicates assumptions of Linear Regression are satisfied.
+No major bias in predictions.
 
 **Feature Importance (Coefficients)**
 
@@ -66,9 +66,9 @@ Higher poverty / tax / pollution → lower price
 
 **Visualizations**
 
-Actual vs Predicted Plot
-Residual Plot
-Feature Importance Plot
+Actual vs Predicted Plot.
+Residual Plot.
+Feature Importance Plot.
 
 **Key Insights**
 
