@@ -3,6 +3,7 @@
 This project applies Linear Regression to predict housing prices using the Boston Housing dataset. The workflow includes data cleaning, scaling, model training, evaluation, and interpretability analysis.
 
 **Feature	Description**
+
 CRIM	Crime rate,
 ZN	Residential land zoning,
 INDUS	Non-retail business acres,
@@ -26,18 +27,22 @@ Train-test split (75% / 25%)
 Feature scaling using StandardScaler
 
 **Model Used**
+
 Linear Regression (Scikit-learn)
 
 **Model Performance**
+
 Train RMSE (scaled): 0.548
 Test RMSE (scaled): 0.666
 
 **Residual Analysis**
+
 ✔ Residuals are normally distributed
 ✔ Indicates assumptions of Linear Regression are satisfied
 ✔ No major bias in predictions
 
 **Feature Importance (Coefficients)**
+
 Positive Impact Features:
 RM (Rooms per house)
 RAD
@@ -58,16 +63,19 @@ More rooms → higher price
 Higher poverty / tax / pollution → lower price
 
 **Visualizations**
+
 Actual vs Predicted Plot
 Residual Plot
 Feature Importance Plot
 
 **Key Insights**
+
 Housing price strongly depends on RM (rooms) and LSTAT (lower status population %).
 Negative socio-economic factors reduce price significantly.
 Linear model provides a strong baseline but may underfit complex relationships.
 
 **Requirements**
+
 numpy
 pandas
 scikit-learn
@@ -75,6 +83,7 @@ matplotlib
 seaborn
 
 **Author** 
+
 Hajira Sajid  
 Data Scientist | Building Real-World Machine Learning Solutions  
 
