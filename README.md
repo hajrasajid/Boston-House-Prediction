@@ -43,19 +43,20 @@ Test RMSE (scaled): 0.666
 
 **Feature Importance (Coefficients)**
 
-Positive Impact Features:
-RM (Rooms per house)
-RAD
-CRIM
-Negative Impact Features:
-LSTAT
-DIS
-TAX
-AGE
-PTRATIO
-NOX
-INDUS
-B
+**Positive Impact Features:**
+RM (Rooms per house),
+RAD,
+CRIM.
+
+**Negative Impact Features:**
+LSTAT,
+DIS,
+TAX,
+AGE,
+PTRATIO,
+NOX,
+INDUS,
+B.
 
 **Interpretation**
 
@@ -77,10 +78,15 @@ Linear model provides a strong baseline but may underfit complex relationships.
 **Requirements**
 
 numpy
+
 pandas
+
 scikit-learn
+
 matplotlib
+
 seaborn
+
 
 **Author** 
 
