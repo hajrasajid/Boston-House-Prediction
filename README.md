@@ -1,3 +1,4 @@
+
 **Boston Housing Price Prediction (Linear Regression)**
 
 This project applies Linear Regression to predict housing prices using the Boston Housing dataset. The workflow includes data cleaning, scaling, model training, evaluation, and interpretability analysis.
@@ -6,8 +7,8 @@ This project applies Linear Regression to predict housing prices using the Bosto
 
 CRIM	Crime rate,
 ZN	Residential land zoning,
-INDUS	Non-retail business acres,
-CHAS	Charles River dummy variable,
+INDUS Non-retail business acres,
+CHAS Charles River dummy variable,
 NOX	Nitric oxides concentration,
 RM	Average number of rooms,
 AGE	Proportion of old houses,
@@ -78,15 +79,10 @@ Linear model provides a strong baseline but may underfit complex relationships.
 **Requirements**
 
 numpy
-
 pandas
-
 scikit-learn
-
 matplotlib
-
 seaborn
-
 
 **Author** 
 
