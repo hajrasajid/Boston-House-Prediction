@@ -21,11 +21,11 @@ LSTAT	% lower status population,
 MEDV	Median house price (Target).
 
 **Data Preprocessing**
-Median imputation (skewed distributions)
-Outlier removal using IQR method
-Feature-target split
-Train-test split (75% / 25%)
-Feature scaling using StandardScaler
+Median imputation (skewed distributions).
+Outlier removal using IQR method.
+Feature-target split.
+Train-test split (75% / 25%).
+Feature scaling using StandardScaler.
 
 **Model Used**
 
