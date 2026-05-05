@@ -70,6 +70,10 @@ Linear Regression (Scikit-learn)
 - Residual Plot.
 - Feature Importance Plot.
 
+**Conclusion**
+
+This project applied Linear Regression to the Boston Housing dataset and achieved good predictive performance with low RMSE. Residual analysis confirmed that model assumptions were reasonably satisfied. The results show that RM (rooms) positively impacts housing prices, while factors like LSTAT, TAX, and NOX have negative effects. Overall, the model provides strong interpretability and serves as a solid baseline for house price prediction.
+
 **Key Insights**
 
 - Housing price strongly depends on RM (rooms) and LSTAT (lower status population %).
